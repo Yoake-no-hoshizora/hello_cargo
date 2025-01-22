@@ -1,6 +1,10 @@
 [package]
-name = "hello_cargo"
+name = "src"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[[bin]]
+name = "src"
+path = "main.rs"
